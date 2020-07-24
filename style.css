@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img-header{
+    width: 30%;
+}
+p{
+    text-align: center;
+    width: 90%;
+    padding-left: 5%;
+}
+
+body
+{
+    text-align: center;
+    background-color: #C6EFD9;
+}
+/*
+
+class heading
+*/
+
+.heading{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 360%;
+    
+}
+
+/*
+    Nav nav bar
+*/
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 30px;  
+  font-family: 'Permanent Marker', cursive;
+  overflow: hidden;
+  background-color: #333;
+  position: relative; /* Set the navbar to fixed position  ori fixed*/
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  border-bottom: 10px;
+}
+.nav li {
+/*  float: left;*/
+    display: inline-block;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+/*About Me content*/
+
+/*
+
+serves as the original color post
+*/
+.post{
+    text-align: center;
+    width: 100%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 35px;
+    position: relative;
+    margin: 2rem auto;
+    word-break: break-word;
+    hyphens: auto;
+}
+/*blog posts*/
+.posts{
+    text-align: center;
+    width: 70%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    position: relative;
+    margin: 1rem auto;
+    word-break: break-word;
+    hyphens: auto;
+}
+
+
+/*horizontal line split*/
+hr{
+    width:60%;
+    text-align: center;
+    opacity: .75;
+    background-color:#333;
+    height: 10;
+    margin-left: 20%;
+    align-self: center;
+    border-top: solid black;
+    margin-top: 10px;
+}
+/*HR FOR POSTS*/
+hr{
+    width:60%;
+    text-align: center;
+    background-color:white;
+    height: 2;
+    margin-left: 20%;
+    align-self: center;
+    border-top: solid white;
+}
